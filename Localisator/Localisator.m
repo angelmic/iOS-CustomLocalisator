@@ -43,7 +43,7 @@ static NSString * const kSaveLanguageDefaultKey = @"kSaveLanguageDefaultKey";
     if (self)
     {
         _defaults                       = [NSUserDefaults standardUserDefaults];
-        _availableLanguagesArray        = @[@"DeviceLanguage", @"English_en", @"French_fr"];
+        _availableLanguagesArray        = @[@"DeviceLanguage", @"Germany_de"];
         _dicoLocalisation               = nil;
         
         _currentLanguage                = @"DeviceLanguage";

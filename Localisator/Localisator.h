@@ -7,7 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#define LOCALIZATION(text) [[Localisator sharedInstance] localizedStringForKey:(text)]
+
+//#define LOCALIZATION(text) [[Localisator sharedInstance] localizedStringForKey:(text)]
+#define LOCALIZATION(text, cmt) [[Localisator sharedInstance] localizedStringForKey:(text)]
 
 static NSString * const kNotificationLanguageChanged = @"kNotificationLanguageChanged";
 
